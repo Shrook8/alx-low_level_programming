@@ -1,9 +1,9 @@
 #include<stdio.h>
 
 /**
- * main - Entry point
+ * main - entry point
  *
- * Description: positive or negative
+ * Description: false or true vaildation
  *
  * Return : 0 (success)
 */
