@@ -8,7 +8,7 @@
  * Return: Always 0 (success)
 */
 
-int amin(void)
+int main(void)
 {
 	char ch = 'a';
 
