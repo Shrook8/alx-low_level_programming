@@ -6,7 +6,6 @@
  * Description: prints _putchar using putchar prototype
  *
  * Return: Always 0 (success)
- *
 */
 
 int main(void)
@@ -19,3 +18,4 @@ int main(void)
 	_putchar('\n');
 
 	return (0);
+}
