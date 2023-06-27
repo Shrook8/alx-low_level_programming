@@ -9,7 +9,7 @@
  * Return: Pointer to `dest`
 */
 
-char *_strcpy(char *dest, chra *src)
+char *_strcpy(char *dest, char *src)
 {
 	int i = -1;
 
