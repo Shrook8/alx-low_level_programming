@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
- * print_diagsums - description
+ * print_diagsums - Entry point
  * @a: 2d array of int types
  * @size: size of array (square)
+ * Return: Always 0 (Success)
 */
 
 void print_diagsums(int *a, int size)
