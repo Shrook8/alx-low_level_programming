@@ -60,6 +60,7 @@ int main(int argc, char *argv[])
 	{
 		printf("Error\n");
 		return (1);
+	}
 
 		num1 = _atio(argv[1]);
 		num2 = _atio(argv[2]);
@@ -68,5 +69,4 @@ int main(int argc, char *argv[])
 		printf("%d\n", result);
 
 		return (0);
-	}
 }
