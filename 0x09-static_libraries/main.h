@@ -1,5 +1,10 @@
 #define MAIN_H
 
+/**
+ * main.h - write the characters
+ * Return: Always 0
+*/
+
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
@@ -20,5 +25,6 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
+int main(void);
 
-int end; /*MAIN_H*/
+#endif; /*MAIN_H*/
