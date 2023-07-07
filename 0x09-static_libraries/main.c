@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int main(void) - print the text
+ * main(void) - print the text
  *
  * Return: on success (0)
  *
