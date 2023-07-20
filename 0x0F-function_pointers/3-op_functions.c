@@ -34,7 +34,7 @@ int op_sub(int a, int b)
  * Return: the product
 */
 
-int op_mul(iny a, int b)
+int op_mul(int a, int b)
 {
 	return (a * b);
 }
@@ -44,7 +44,7 @@ int op_mul(iny a, int b)
  * @a: the first int
  * @b: the second int
  *
- * Return: the prosduct
+ * Return: the quotient
 */
 
 int op_div(int a, int b)
