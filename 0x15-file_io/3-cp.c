@@ -2,7 +2,7 @@
 
 #define USAGE "Usage: cp file_from file_to\n"
 #define ERR_NOREAD "Error: Cannot read from file %s\n"
-#define ERR_NOWRITE "ERROR: Cannot write to %s\n"
+#define ERR_NOWRITE "Error: Cannot write to %s\n"
 #define ERR_NOCLOSE "Error: Cannot close fd %d\n"
 #define PERMISSIONS (S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH)
 
