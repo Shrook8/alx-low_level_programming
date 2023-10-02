@@ -13,7 +13,7 @@ void print_magic(Elf64_Ehdr h)
 	int i;
 
 	printf(" Magic: ");
-	for (i = 0; < EI_NIDENT; i++)
+	for (i = 0; i < EI_NIDENT; i++)
 		printf("%2.2x%s", h. e_ident[i], i == EI_NIDENT - 1 ? "\n" : " ");
 }
 
@@ -56,7 +56,6 @@ void print_version(Elf64_Ehdr h)
 		case EV_NONE:
 			printf("%s", "");
 			break;
-			braek;
 	}
 	printf("\n");
 }
@@ -178,7 +177,7 @@ void print_type(Elf64_Ehdr h)
 			printf("<unknown>: %x", p[i]);
 			break;
 	}
-	print("\n");
+	printf("\n");
 }
 
 /**
